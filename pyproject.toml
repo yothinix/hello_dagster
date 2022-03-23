@@ -8,6 +8,7 @@ authors = ["Yothin Muangsommuk <m@yothinix.com>"]
 python = "^3.10"
 dagster = "^0.14.5"
 dagit = "^0.14.5"
+requests = "^2.27.1"
 
 [tool.poetry.dev-dependencies]
 
