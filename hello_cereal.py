@@ -15,3 +15,7 @@ def hello_cereal():
 @job
 def hello_cereal_job():
     hello_cereal()
+
+
+if __name__ == '__main__':
+    result = hello_cereal_job.execute_in_process()
